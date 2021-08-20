@@ -8,7 +8,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
 
     number = requests.get("https://mikitoleongapp.azurewebsites.net/api/service-2?code=hLLFUq2d13A5tYanFsWW2jb5DPwtYwwjKIgGs1oTsqAIRkqBZXCYFA==")
-    letter = requests.get("https://mikitoleongapp.azurewebsites.net/api/service-2?code=hLLFUq2d13A5tYanFsWW2jb5DPwtYwwjKIgGs1oTsqAIRkqBZXCYFA==")
+    letter = requests.get("https://mikitoleongapp.azurewebsites.net/api/service-3?code=bitTeriB4DKHaEbVGn214QY0iWzZ8bXdtlSiNpEnHQxL/vdILQuY3Q==")
     
     rand_output = number.text + letter.text
 
